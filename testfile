@@ -1,4 +1,0 @@
-FROM golang:1.17 AS build
-ADD . /src
-WORKDIR /src
-RUN go get -d -v 
